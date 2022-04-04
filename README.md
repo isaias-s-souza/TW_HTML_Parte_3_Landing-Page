@@ -17,3 +17,7 @@
     3) Formulários com novos elementos e atributos HTML5 (novalidate, datalist, output)
     4) Como criar imagens responsivas com os atributos srcset e sizes.
 
+Referências: 
+
+https://pt.everybodywiki.com/Igor_Guimar%C3%A3es
+imagem 1: https://xvcuritiba.com.br/wp-content/uploads/2018/10/v2-5.jpg.webp
