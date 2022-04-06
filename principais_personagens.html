@@ -23,8 +23,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>A vida e as aventuras de Igor Guimarães</title>
 </head>
+
 <body style="font-family:  Inconsolata">
     <header>
         <h1>Esse é o cabeçalho (header) principal que vai ser usado em todas as páginas do nosso website</h1>
@@ -38,57 +42,66 @@
         </ul>
     </nav>
     <!-- Esse é o conteúdo principal da nossa página -->
+    <div class="container">
+        <main>
 
-    <main>
-        <!-- Contém um artigo -->
-        <article>
             <h2> Igor Guimarães e seus Personagens Peculiares</h2>
 
-            <p>Igor ficou muito conhecido pelos seus personagens politicamente incorretos. Seus personagens mais famosos são:</p>
-            <figure>
-                <img src="image/img1.webp" alt="Boneco Josias" width="250" height="250">
-                <figcaption>Igor Guimarães em seu Personagem,</br> Boneco Josias, no Programa Pânico.</figcaption>
-            </figure>
-            <h3>Subtítulo</h3>
+            <p>Igor ficou muito conhecido pelos seus personagens politicamente incorretos. Seus personagens mais
+                famosos
+                são:</p>
 
-            <p></p>
+            <div class="row">
+                <div class="col sm">
+                    <figure>
+                        <img src="image/boneco_josias.webp" alt="Boneco Josias" width="250" height="250">
+                        <figcaption>Igor Guimarães em seu Personagem,</br> Boneco Josias no Programa Pânico.
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col sm">
+                    <figure>
+                        <img src="image/Indio_ana_jones.jpg" alt="Advogado Paloma" width="250" height="250">
+                        <figcaption>Igor Guimarães em seu Personagem,</br> Índio Ana Jones no Programa Master Trash.
+                        </figcaption>
+                    </figure>
+                </div>
+                <div class="col sm">
+                    <figure>
+                        <img src="image/advogado_paloma.png" alt="Indie Ana Jones" width="250" height="250">
+                        <figcaption>Igor Guimarães em seu Personagem,</br> Advogado Paloma em sua página do
+                            facebook.</figcaption>
+                    </figure>
+                </div>
+            </div>
 
-            <p></p>
+            <p>Podemos notar que uma das pricipais características do comediante é de fato seu exagero.</p>
+            <strong>
+                <p>Segue abaixo os links para acesso de suas prinpais páginas.</p>
+            </strong>
+            <ul>
+                <li ><a href='https://twitter.com/igorzismo/status/1503855376239894535'>Twitter</a><figure><img src="image/twiter.jpg" width="25" height="25"></figure></li>
+                <li ><a href='https://www.facebook.com/igorzismo/'>Facebook</a><figure><img src="image/facebook.jpg" width="25" height="25"></figure></li>
+                <li ><a href='https://www.youtube.com/channel/UCuprUxkIqGxWhPPqBmYHAJA'>YouTube</a><figure><img src="image/youtube.jpg" width="25" height="25"></figure></li>
+            </ul>
 
-            <h3>Subtítulo</h3>
+            <!-- Bloco de conteúdo para mais informações-->
+            <aside>
+                <h3>Mais Informações</h3>
 
-            <p></p>
-
-            <p></p>
-        </article>
-
-
-        <p>Este é um primeiro parágrafo que contém a tag span, uma tag "em linha". <span>Elemento em linha</span></p>
-        <p>Este é um segundo parágrafo também contém uma tag "em linha", a tag de link a. <a
-                href='http://www.ifsuldeminas.edu.br'>Link para o IFSULDEMINAS</a></p>
-
-        <p>Este é um terceiro parágrafo que contém a tag "em bloco" p dentro de outra tag p.
-        <p>Elemento em bloco</p>
-        </p>
-
-
-
-        <!-- O contéudo do elemento aside pode ser aninhado dentro do conteúdo do elemento main -->
-        <aside>
-            <h3>Mais Informações</h3>
-
-            <form action="" method="post" style="display:block">
-                <label>Deixe seu e-mail para receber mais informações!</label></br>
-                <input  type="email" name="email" placeholder="email@email.com"></br>
-                <input  type="submit" value="Enviar"></br>
-            </form>
-        </aside>
-    </main>
-
+                <form action="" method="post" style="display:block">
+                    <label>Deixe seu e-mail para receber mais informações!</label></br>
+                    <input type="email" name="email" placeholder="email@email.com"></br>
+                    <input type="submit" value="Enviar"></br>
+                </form>
+            </aside>
+        </main>
+    </div>
     <!-- Esse é o rodapé principal que vai ser usado em todas as páginas do nosso website -->
     <center>
         <footer>
             <p>©Copyright 2022 - Fortunato, Isaias e Maria.</p>
         </footer>
     </center>
+
 </html>

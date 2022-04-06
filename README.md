@@ -21,3 +21,5 @@ Referências:
 
 https://pt.everybodywiki.com/Igor_Guimar%C3%A3es
 imagem 1: https://xvcuritiba.com.br/wp-content/uploads/2018/10/v2-5.jpg.webp
+imagem 2: https://pm1.narvii.com/7039/4df3d662eba88b3a4dc40de4da2b1caad4356009r1-480-360v2_00.jpg
+imagem 3: https://scontent-gru1-1.xx.fbcdn.net/v/t39.30808-6/258334552_306377888160378_2861703197350258479_n.png?_nc_cat=110&ccb=1-5&_nc_sid=e3f864&_nc_ohc=EnYo6aVD8fQAX_EGfdK&_nc_ht=scontent-gru1-1.xx&oh=00_AT8IbczrkE725Byugxm5hVAacoZNG11Mzm-ducAGLus0Cw&oe=62527212
