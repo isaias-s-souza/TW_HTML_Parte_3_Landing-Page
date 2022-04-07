@@ -29,16 +29,30 @@
     <title>A vida e as aventuras de Igor Guimarães</title>
 </head>
 
-<body style="font-family:  Inconsolata">
+<body>
+    <style>
+        table, th, td{
+            border:1px solid;
+        }
+        body{
+            font-family:  Inconsolata
+        }
+        #identificadorTHEAD{
+            background-color: rgb(0, 139, 93);
+        }
+        #identificadorTBODY, #identificadorTR{
+            background-color: rgb(216, 211, 211);
+        }     
+    </style>
     <header>
         <h1>Esse é o cabeçalho (header) principal que vai ser usado em todas as páginas do nosso website</h1>
     </header>
     <nav>
         <ul>
-            <li style="display:inline-block"><a href="index.html">Home</a></li>|
-            <li style="display:inline-block"><a href="principais_personagens.html">Principais Personagens</a></li>|
-            <li style="display:inline-block"><a href="#">Página 2</a></li>|
-            <li style="display:inline-block"><a href="#">Página 3</a></li>
+            <li style="display:inline-block"><a href="./index.html">Página Principal</a></li>|
+            <li style="display:inline-block"><a href="./principais_personagens.html">Principais Personagens</a></li>|
+            <li style="display:inline-block"><a href="./melhores momentos.html">Melhores Momentos</a></li>|
+            <li style="display:inline-block"><a href="./index.html#ebookcadastro">Baixar Artigo</a></li>
         </ul>
     </nav>
     <!-- Esse é o conteúdo principal da nossa página -->
@@ -90,15 +104,17 @@
                     <figure><img src="image/youtube.jpg" width="25" height="25"></figure>
                 </li>
             </ul>
-
-            <table style="border: 5px">
-                <thead>
-                    <tr>
-                        <th>Personagem</th>
-                        <th>Descrição</th>
-                    </tr>
-                </thead>
-                <tbody>
+            <table>
+                <caption>Tabela de descriçãp dos personagens.</caption>
+                <colgroup>
+                    <thead id="identificadorTHEAD">
+                        <tr>
+                            <th>Personagem</th>
+                            <th>Descrição</th>
+                        </tr>
+                    </thead>
+                </colgroup>
+                <tbody id="identificadorTBODY">
                     <tr>
                         <td>
                             Boneco Josias
@@ -157,9 +173,9 @@
                     </tr>
                 </tbody>
                 <tfooter>
-                    <tr>
-                        <td>
-                            teste
+                    <tr id="identificadorTR">
+                        <td colspan="2">
+                           <strong> Fonte:Desciclopédia, disponível em: https://desciclopedia.org/wiki/Igor_Guimar%C3%A3es</strong>
                         </td>
                     </tr>
                 </tfooter>
