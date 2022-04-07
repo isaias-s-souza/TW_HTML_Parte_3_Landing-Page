@@ -36,9 +36,10 @@
     </header>
     <nav>
         <ul>
-            <li style="display:inline-block"><a href="index.html">Página Principal</a></li>|
-            <li style="display:inline-block"><a href="principais_personagens.html">Principais Personagens</a></li>|
-            <li style="display:inline-block"><a href="melhores momentos.html">Melhores momentos</a></li>
+            <li style="display:inline-block"><a href="./index.html">Página Principal</a></li>|
+            <li style="display:inline-block"><a href="./principais_personagens.html">Principais Personagens</a></li>|
+            <li style="display:inline-block"><a href="./melhores momentos.html">Melhores momentos</a></li>
+            <li style="display:inline-block"><a href="#ebookcadastro">Baixar Artigo</a></li>
         </ul>
     </nav>
     <!-- Esse é o conteúdo principal da nossa página -->
@@ -63,32 +64,6 @@
             <strong> Igor Guimarães sobre inundação. </strong>
         </article>
 
-        <p>Este é um primeiro parágrafo que contém a tag span, uma tag "em linha". <span>Elemento em linha</span></p>
-        <p>Este é um segundo parágrafo também contém uma tag "em linha", a tag de link a. <a
-                href='http://www.ifsuldeminas.edu.br'>Link para o IFSULDEMINAS</a></p>
-
-        <p>Este é um terceiro parágrafo que contém a tag "em bloco" p dentro de outra tag p.
-        <p>Elemento em bloco</p>
-        </p>
-
-        <!-- O contéudo do elemento aside pode ser aninhado dentro do conteúdo do elemento main -->
-        <aside>
-            <h2>Related</h2>
-
-            <form action="/" method="post" style="display:block">
-                <label>Label 1</label></br>
-                <input type="" name="" placeholder=""></br>
-                <label>Label 2</label></br>
-                <input type="" name="" placeholder=""></br>
-                <label>Label 3</label></br>
-                <input type="" name="" placeholder=""></br>
-                <input type="submit" value="Enviar"></br>
-            </form>
-        </aside>
-
-        <embed src="static/Materia IGUINHO.pdf" width="760" height="500" type='application/pdf'>
-        <br>
-
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d196799.06599268343!2d-46.612546377908!3d-23.575822129374153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1648920643399!5m2!1spt-BR!2sbr"
             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
@@ -99,6 +74,19 @@
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
+
+        <!-- O contéudo do elemento aside pode ser aninhado dentro do conteúdo do elemento main -->
+        <aside>
+            <h2>Baixe seu PDF</h2>
+
+            <form action="ebook.html" method="post" style="display:block" id="ebookcadastro">
+                <label>Seu Nome</label></br>
+                <input type="text" name="name" placeholder="José cabelinho"></br>
+                <label>E-mail</label></br>
+                <input type="email" name="email" placeholder="email@email.com"></br>
+                <input type="submit" value="Enviar"></br>
+            </form>
+        </aside>
     </main>
     <!-- Esse é o rodapé principal que vai ser usado em todas as páginas do nosso website -->
     <footer>
